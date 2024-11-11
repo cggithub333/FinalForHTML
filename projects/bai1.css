@@ -1,0 +1,66 @@
+.list {
+  border-collapse: collapse;
+}
+
+.list td {
+  box-sizing: border-box;
+  border: 2px solid #cecece;
+  padding-left: 2vw;
+  padding-right: 18vw;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  background-color: #f9f9ff;
+}
+
+.list td:hover {
+  color: #ffffff;
+  background-color: blueviolet;
+}
+
+/*--------------------------------------------*/
+
+.list2 {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.list2 li {
+  box-sizing: border-box;
+  width: 24vw; /*fixed the width length*/
+  border: 2px solid #cecece;
+  border-bottom: none; /* avoid over writing onto each border-bottom line*/
+  padding: 1vw;
+  padding-left: 2vw;
+  background-color: #f9f9ff;
+}
+
+/*add the last border-bottom again*/
+.list2 li:last-child {
+  border-bottom: 2px solid #cecece;
+}
+
+.list2 li:hover {
+  color: white;
+  background-color: blueviolet;
+}
+
+/*--------------------------------------------*/
+
+.social_media p {
+  display: inline-block;
+  padding-left: 1vw;
+  padding-right: 1vw;
+}
+
+.fa-brands {
+  background-color: #ddd;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  padding: 8px;
+}
+
+.fa-brands:hover {
+  background-color: coral;
+  color: #ffffff;
+}
